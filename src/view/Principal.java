@@ -1,0 +1,17 @@
+package view;
+
+import controller.StringController;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		//Método construtor
+		StringController str = new StringController();
+		//Colocando caracteres na variável nome
+		String nome = "Gabriel";
+		String saida = str.inverteString(nome, nome.length());
+		System.out.println(saida);
+
+	}
+
+}
